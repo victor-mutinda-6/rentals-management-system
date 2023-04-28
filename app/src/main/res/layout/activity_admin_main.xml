@@ -4,6 +4,98 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bluebg"
     tools:context=".adminMainActivity">
 
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="5dp"
+        android:text="logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="4dp"
+        android:background="#4AED1C1C"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnsetting"
+                android:layout_width="128dp"
+                android:layout_height="132dp"
+                android:background="@drawable/settingsicon"
+                android:text="account setings"
+                tools:layout_editor_absoluteX="62dp"
+                tools:layout_editor_absoluteY="104dp" />
+
+            <Button
+                android:id="@+id/btnTenantlist"
+                android:layout_width="129dp"
+                android:layout_height="122dp"
+                android:background="@drawable/iconuser"
+                android:text="Tenant List"
+                tools:layout_editor_absoluteX="62dp"
+                tools:layout_editor_absoluteY="104dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="132dp"
+                android:layout_height="112dp"
+                android:text="Button"
+                tools:layout_editor_absoluteX="62dp"
+                tools:layout_editor_absoluteY="104dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="132dp"
+                android:layout_height="117dp"
+                android:text="Button"
+                tools:layout_editor_absoluteX="62dp"
+                tools:layout_editor_absoluteY="104dp" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="133dp"
+                android:layout_height="134dp"
+                android:text="Button"
+                tools:layout_editor_absoluteX="62dp"
+                tools:layout_editor_absoluteY="104dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="313dp"
+        android:layout_height="193dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        app:circularflow_radiusInDP="23"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/homehouse" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="104dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
