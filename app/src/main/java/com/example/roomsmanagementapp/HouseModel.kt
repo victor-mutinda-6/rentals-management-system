@@ -5,12 +5,15 @@ import kotlin.random.Random
 
 class HouseModel(
     var id : Int = getAutoID(),
-    var name: String = "",
-    var email: String =""
+    var houseNumber: String = "",
+    var houseType: String = "",
+    var rent: String ="",
+    var tenant: String ="",
+    var moreInfor: String ="",
     ){
     companion object{
     fun  getAutoID():Int{
-        val random = Random()
+        val random = Random
         return random.nextInt(100)
         }
     }
