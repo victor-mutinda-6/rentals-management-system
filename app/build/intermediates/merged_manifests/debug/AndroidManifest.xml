@@ -29,6 +29,18 @@
         android:testOnly="true"
         android:theme="@style/Theme.RoomsManagementApp" >
         <activity
+            android:name="com.example.roomsmanagementapp.ViewHousesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.roomsmanagementapp.AddAhouseActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.roomsmanagementapp.HousesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.roomsmanagementapp.AccountInformationActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.roomsmanagementapp.signinAdminActivity"
             android:exported="false" />
         <activity
@@ -54,8 +66,7 @@
             android:exported="true" />
         <activity
             android:name="com.example.roomsmanagementapp.MainActivity"
-            android:exported="true" >
-        </activity>
+            android:exported="true" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"

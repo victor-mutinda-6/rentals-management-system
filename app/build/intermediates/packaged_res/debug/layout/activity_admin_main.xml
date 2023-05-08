@@ -23,6 +23,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginBottom="4dp"
+        android:background="#4AED1C1C"
         app:layout_constraintBottom_toTopOf="@+id/btnLogout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +47,7 @@
                 android:id="@+id/btnTenantlist"
                 android:layout_width="129dp"
                 android:layout_height="122dp"
-                android:background="@drawable/listicon"
+                android:background="@drawable/iconuser"
                 android:text="Tenant List"
                 tools:layout_editor_absoluteX="62dp"
                 tools:layout_editor_absoluteY="104dp" />

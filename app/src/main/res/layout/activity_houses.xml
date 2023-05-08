@@ -1,50 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bluebg"
-    tools:context=".HousesActivity">
-
-
+    android:padding="4dp"
+    tools:context=".MainActivity">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myContactList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:paddingBottom="8dp" />
     <Button
-        android:id="@+id/btnAddHouse"
-        android:layout_width="160dp"
-        android:layout_height="51dp"
-        android:text="Add House"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="221dp" />
-
-    <Button
-        android:id="@+id/btnViewHouses"
-        android:layout_width="157dp"
-        android:layout_height="58dp"
-        android:text="View Houses"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="155dp" />
-
-    <Button
-        android:id="@+id/btnDeletHouses"
-        android:layout_width="161dp"
-        android:layout_height="52dp"
-        android:text="Delete Houses"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="278dp" />
-
-    <Button
-        android:id="@+id/btnUpdateHouses"
+        android:id="@+id/btnAdd"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Update Houses"
-        tools:layout_editor_absoluteX="39dp"
-        tools:layout_editor_absoluteY="336dp" />
-
-    <Button
-        android:id="@+id/btnHome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="home"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="402dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:padding="2dp"
+        android:text="ADD" />
+</FrameLayout>

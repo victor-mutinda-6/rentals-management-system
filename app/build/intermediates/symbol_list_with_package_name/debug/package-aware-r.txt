@@ -2764,6 +2764,8 @@ drawable expenditureicon
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable homehouse
+drawable houseicon
+drawable houselogo
 drawable houseslist
 drawable ic_arrow_back_black_24
 drawable ic_call_answer
@@ -2973,11 +2975,12 @@ id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
 id btnAdmin
+id btnBack
 id btnCreateAccount
-id btnGetStarted
 id btnLogout
 id btnTenant
 id btnTenantlist
+id btnUpdate
 id btnlogin
 id btnsetting
 id button
@@ -3055,6 +3058,8 @@ id easeInOut
 id easeOut
 id east
 id edit_query
+id edtEmail
+id edtName
 id elastic
 id embed
 id end
@@ -3104,6 +3109,7 @@ id ignoreRequest
 id image
 id imageView
 id imageView2
+id imageView3
 id immediateStop
 id included
 id indeterminate
@@ -3151,6 +3157,8 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id mbtnDelete
+id mbtnUpdate
 id message
 id middle
 id mini
@@ -3184,6 +3192,11 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
+id mtxHouseNo
+id mtxHouseType
+id mtxMoreInfor
+id mtxRent
+id mtxTenant
 id multiply
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -3226,7 +3239,6 @@ id postLayout
 id pressed
 id progress_circular
 id progress_horizontal
-id progressbar
 id radio
 id ratio
 id rectangles
@@ -3334,7 +3346,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
+id textView4
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3493,12 +3505,14 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_account_information
 layout activity_admin_login
 layout activity_admin_main
-layout activity_loading
+layout activity_houses
 layout activity_login1
 layout activity_main
 layout activity_signin_admin
+layout activity_view_houses
 layout activity_welcome
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
@@ -3580,6 +3594,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw firebase_common_keep
