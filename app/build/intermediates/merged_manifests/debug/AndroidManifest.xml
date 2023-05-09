@@ -29,12 +29,6 @@
         android:testOnly="true"
         android:theme="@style/Theme.RoomsManagementApp" >
         <activity
-            android:name="com.example.roomsmanagementapp.ViewHousesActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.roomsmanagementapp.AddAhouseActivity"
-            android:exported="false" />
-        <activity
             android:name="com.example.roomsmanagementapp.HousesActivity"
             android:exported="false" />
         <activity
@@ -61,9 +55,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.example.roomsmanagementapp.LoadingActivity"
-            android:exported="true" />
         <activity
             android:name="com.example.roomsmanagementapp.MainActivity"
             android:exported="true" />

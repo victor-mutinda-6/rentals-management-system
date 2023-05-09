@@ -16,8 +16,11 @@ class SqliteDatabase internal constructor(context: Context?) :
         val createHousesTable = ("CREATE TABLE "
                 + TABLE_HOUSES + "(" + COLUMN_ID
                 + " INTEGER PRIMARY KEY,"
-                + COLUMN_NAME + " TEXT,"
-                + COLUMN_NO + " INTEGER" + ")")
+                + COLUMN_NUMBER + " TEXT,"
+                + COLUMN_TYPE + " TEXT,"
+                + COLUMN_RENT + " TEXT,"
+                + COLUMN_TENANT + " TEXT,"
+                + COLUMN_MORE + " TEXT," + ")")
         db.execSQL(createHousesTable)
     }
     override fun onUpgrade(
@@ -37,26 +40,35 @@ class SqliteDatabase internal constructor(context: Context?) :
         if (cursor.moveToFirst()) {
             do {
                 val id = cursor.getString(0).toInt()
-                val name = cursor.getString(1)
-                val phno = cursor.getString(2)
-                storeHouses.add(Houses(id, name, phno))
+                val number = cursor.getString(1)
+                val type = cursor.getString(2)
+                val rent = cursor.getString(3)
+                val tenant = cursor.getString(4)
+                val more = cursor.getString(5)
+                storeHouses.add(Houses(id, number, type, rent, tenant, more))
             }
             while (cursor.moveToNext())
         }
         cursor.close()
         return storeHouses
     }
-    fun addContacts(houses: Houses) {
+    fun addHouses(houses: Houses) {
         val values = ContentValues()
-        values.put(COLUMN_NAME, houses.name)
-        values.put(COLUMN_NO, houses.phno)
+        values.put(COLUMN_NUMBER, houses.number)
+        values.put(COLUMN_TYPE, houses.type)
+        values.put(COLUMN_RENT, houses.rent)
+        values.put(COLUMN_TENANT, houses.tenant)
+        values.put(COLUMN_MORE, houses.moreInfor)
         val db = this.writableDatabase
         db.insert(TABLE_HOUSES, null, values)
     }
     fun updateHouses(houses: Houses) {
         val values = ContentValues()
-        values.put(COLUMN_NAME, houses.name)
-        values.put(COLUMN_NO, houses.phno)
+        values.put(COLUMN_NUMBER, houses.number)
+        values.put(COLUMN_TYPE, houses.type)
+        values.put(COLUMN_RENT, houses.rent)
+        values.put(COLUMN_TENANT, houses.tenant)
+        values.put(COLUMN_MORE, houses.moreInfor)
         val db = this.writableDatabase
         db.update(
             TABLE_HOUSES,
@@ -65,7 +77,7 @@ class SqliteDatabase internal constructor(context: Context?) :
             arrayOf(houses.id.toString())
         )
     }
-    fun deleteContact(id: Int) {
+    fun deleteHouse(id: Int) {
         val db = this.writableDatabase
         db.delete(
             TABLE_HOUSES,
@@ -78,7 +90,11 @@ class SqliteDatabase internal constructor(context: Context?) :
         private const val DATABASE_NAME = "Houses"
         private const val TABLE_HOUSES = "Houses"
         private const val COLUMN_ID = "_id"
-        private const val COLUMN_NAME = "contactName"
-        private const val COLUMN_NO = "phoneNumber"
+        private const val COLUMN_NUMBER = "number"
+        private const val  COLUMN_TYPE = "type"
+        private const val  COLUMN_RENT = "rent"
+        private const val  COLUMN_TENANT = "tenant"
+        private const val  COLUMN_MORE = "more"
+
     }
 }

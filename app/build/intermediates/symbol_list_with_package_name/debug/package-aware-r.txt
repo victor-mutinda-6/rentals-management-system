@@ -2974,6 +2974,7 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id btnAdd
 id btnAdmin
 id btnBack
 id btnCreateAccount
@@ -2983,7 +2984,6 @@ id btnTenantlist
 id btnUpdate
 id btnlogin
 id btnsetting
-id button
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3029,6 +3029,7 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
+id deleteHouse
 id deltaRelative
 id dependency_ordering
 id design_bottom_sheet
@@ -3057,6 +3058,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editHouse
 id edit_query
 id edtEmail
 id edtName
@@ -3066,6 +3068,11 @@ id end
 id endToStart
 id enterAlways
 id enterAlwaysCollapsed
+id enterMore
+id enterNumber
+id enterRent
+id enterTenant
+id enterType
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3100,6 +3107,10 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id houseNumber
+id houseRent
+id houseTenant
+id houseType
 id icon
 id icon_group
 id icon_only
@@ -3157,8 +3168,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
-id mbtnDelete
-id mbtnUpdate
+id mbtnHouses
 id message
 id middle
 id mini
@@ -3168,6 +3178,7 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id moreInfor
 id motion_base
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
@@ -3192,12 +3203,8 @@ id mtrl_picker_text_input_range_end
 id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
-id mtxHouseNo
-id mtxHouseType
-id mtxMoreInfor
-id mtxRent
-id mtxTenant
 id multiply
+id myHouseList
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3512,8 +3519,8 @@ layout activity_houses
 layout activity_login1
 layout activity_main
 layout activity_signin_admin
-layout activity_view_houses
 layout activity_welcome
+layout add_houses
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3532,6 +3539,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout houses_list_layout
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title

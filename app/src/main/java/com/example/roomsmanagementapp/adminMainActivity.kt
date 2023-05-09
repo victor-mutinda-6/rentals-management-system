@@ -9,16 +9,22 @@ import com.google.firebase.ktx.Firebase
 
 class adminMainActivity : AppCompatActivity() {
     lateinit var logout:Button
+    lateinit var houses: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_admin_main)
         logout = findViewById(R.id.btnLogout)
+        houses = findViewById(R.id.mbtnHouses)
 
         logout.setOnClickListener{
             Firebase.auth.signOut()
             var logout = Intent(this,loginActivity1::class.java)
             startActivity(logout)
+        }
+        houses.setOnClickListener {
+            var houses = Intent(this, HousesActivity::class.java)
+            startActivity(houses)
         }
 
 

@@ -6,7 +6,7 @@
     android:padding="4dp"
     tools:context=".MainActivity">
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/myContactList"
+        android:id="@+id/myHouseList"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginBottom="50dp"

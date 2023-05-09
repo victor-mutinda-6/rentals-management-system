@@ -3,23 +3,58 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
     <EditText
-        android:id="@+id/enterName"
+        android:id="@+id/enterNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
-        android:hint="Enter Name"
+        android:hint="Enter House Number"
         android:inputType="text"
         android:maxLines="1"
         android:padding="12dp"
         android:textSize="12dp" />
+
     <EditText
-        android:id="@+id/enterPhoneNum"
+        android:id="@+id/enterType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:hint="Enter House Type"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/enterRent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:hint="Enter Rent"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/enterTenant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:hint="Enter Tenant"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textSize="12dp" />
+
+    <EditText
+        android:id="@+id/enterMore"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="8dp"
-        android:hint="Enter Number"
+        android:hint="Enter More Information"
         android:inputType="phone"
         android:maxLines="1"
         android:padding="12dp"

@@ -15,7 +15,7 @@ import java.util.*
 import kotlin.collections.ArrayList
 
 
-internal class HouseAdapter(private val context: Context, listHouses: ArrayList<Houses>) :
+class HouseAdapter(private val context: Context, listHouses: ArrayList<Houses>) :
     RecyclerView.Adapter<HousesViewHolder>(), Filterable {
     private var listHouses: ArrayList<Houses>
     private val mArrayList: ArrayList<Houses>
@@ -31,12 +31,15 @@ internal class HouseAdapter(private val context: Context, listHouses: ArrayList<
         return HousesViewHolder(view)
     }
     override fun onBindViewHolder(holder: HousesViewHolder, position: Int) {
-        val contacts = listHouses[position]
-        holder.tvName.text = contacts.name
-        holder.tvPhoneNum.text = contacts.phno
-        holder.editContact.setOnClickListener { editTaskDialog(contacts) }
-        holder.deleteContact.setOnClickListener {
-            mDatabase.deleteContact(contacts.id)
+        val houses = listHouses[position]
+        holder.tvNumber.text = houses.number
+        holder.tvType.text = houses.type
+        holder.tvRent.text = houses.rent
+        holder.tvTenant.text = houses.tenant
+        holder.tvMore.text = houses.moreInfor
+        holder.editHouse.setOnClickListener { editTaskDialog(houses) }
+        holder.deleteHouse.setOnClickListener {
+            mDatabase.deleteHouse(houses.id)
             (context as Activity).finish()
             context.startActivity(context.intent)
         }
@@ -51,7 +54,7 @@ internal class HouseAdapter(private val context: Context, listHouses: ArrayList<
                 else {
                     val filteredList = ArrayList<Houses>()
                     for (houses in mArrayList) {
-                        if (houses.name.toLowerCase().contains(charString)) {
+                        if (houses.number.toLowerCase().contains(charString)) {
                             filteredList.add(houses)
                         }
                     }
@@ -75,13 +78,19 @@ internal class HouseAdapter(private val context: Context, listHouses: ArrayList<
     override fun getItemCount(): Int {
         return listHouses.size
     }
-    private fun editTaskDialog(contacts: Houses) {
+    private fun editTaskDialog(houses: Houses) {
         val inflater = LayoutInflater.from(context)
         val subView = inflater.inflate(R.layout.add_houses, null)
-        val nameField: EditText = subView.findViewById(R.id.enterName)
-        val contactField: EditText = subView.findViewById(R.id.enterPhoneNum)
-        nameField.setText(contacts.name)
-        contactField.setText(contacts.phno)
+        val numberField: EditText = subView.findViewById(R.id.enterNumber)
+        val typeField: EditText = subView.findViewById(R.id.enterType)
+        val rentField: EditText = subView.findViewById(R.id.enterRent)
+        val tenantField: EditText = subView.findViewById(R.id.enterTenant)
+        val moreField: EditText = subView.findViewById(R.id.enterMore)
+        numberField.setText(houses.number)
+        typeField.setText(houses.type)
+        rentField.setText(houses.rent)
+        tenantField.setText(houses.tenant)
+        moreField.setText(houses.moreInfor)
         val builder = AlertDialog.Builder(context)
         builder.setTitle("Edit houses")
         builder.setView(subView)
@@ -89,9 +98,12 @@ internal class HouseAdapter(private val context: Context, listHouses: ArrayList<
         builder.setPositiveButton(
             "EDIT Houses"
         ) { _, _ ->
-            val name = nameField.text.toString()
-            val phNo = contactField.text.toString()
-            if (TextUtils.isEmpty(name)) {
+            val number = numberField.text.toString()
+            val type = typeField.text.toString()
+            val rent = rentField.text.toString()
+            val tenant = tenantField.text.toString()
+            val more = moreField.text.toString()
+            if (TextUtils.isEmpty(number)) {
                 Toast.makeText(
                     context,
                     "Something went wrong. Check your input values",
@@ -101,9 +113,12 @@ internal class HouseAdapter(private val context: Context, listHouses: ArrayList<
             else {
                 mDatabase.updateHouses(
                     Houses(
-                        Objects.requireNonNull<Any>(contacts.id) as Int,
-                        name,
-                        phNo
+                        Objects.requireNonNull<Any>(houses.id) as Int,
+                        number,
+                        type,
+                        rent,
+                        tenant,
+                        more
                     )
                 )
                 (context as Activity).finish()
