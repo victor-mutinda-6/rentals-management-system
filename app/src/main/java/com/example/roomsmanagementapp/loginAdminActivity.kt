@@ -1,5 +1,6 @@
 package com.example.roomsmanagementapp
 
+import android.app.ProgressDialog
 import android.content.ContentValues.TAG
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,15 +8,12 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
-import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
-import java.net.PasswordAuthentication
-
 
 
 class
@@ -25,6 +23,7 @@ loginAdminActivity : AppCompatActivity() {
     lateinit var edtPassword : EditText
     lateinit var btnlogin : Button
     lateinit var btncreateaccount :Button
+    lateinit var progressDialog : ProgressDialog
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_admin_login)
@@ -33,6 +32,9 @@ loginAdminActivity : AppCompatActivity() {
         btnlogin = findViewById(R.id.btnlogin)
         auth = Firebase.auth
         btncreateaccount = findViewById(R.id.btnCreateAccount)
+        progressDialog = ProgressDialog(this)
+        progressDialog.setTitle("Loading")
+        progressDialog.setMessage("Please wait...")
 
 
 
@@ -44,8 +46,10 @@ loginAdminActivity : AppCompatActivity() {
                 //display an error message using the defined message function
                 messages("EMPTY FIELDS!!!","Please fill all input fields")
             }else{
+                progressDialog.show()
                 auth.signInWithEmailAndPassword(email, password)
                     .addOnCompleteListener(this) { task ->
+                        progressDialog.dismiss()
                         if (task.isSuccessful) {
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithEmail:success")
@@ -72,7 +76,7 @@ loginAdminActivity : AppCompatActivity() {
 
 
         btncreateaccount.setOnClickListener{
-            var create = Intent(this,signinAdminActivity::class.java)
+            var create = Intent(this,signupAdminActivity::class.java)
             startActivity(create)
         }
 

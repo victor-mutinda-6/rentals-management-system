@@ -35,13 +35,19 @@
             android:name="com.example.roomsmanagementapp.AccountInformationActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.roomsmanagementapp.signinAdminActivity"
+            android:name="com.example.roomsmanagementapp.signupAdminActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.roomsmanagementapp.adminMainActivity"
+            android:name="com.example.roomsmanagementapp.signupTenantActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.roomsmanagementapp.tenantMainActivity"
             android:exported="false" />
         <activity
             android:name="com.example.roomsmanagementapp.loginAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.roomsmanagementapp.loginTenantActivity"
             android:exported="false" />
         <activity
             android:name="com.example.roomsmanagementapp.loginActivity1"

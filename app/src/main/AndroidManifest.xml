@@ -12,19 +12,28 @@
         android:theme="@style/Theme.RoomsManagementApp"
         tools:targetApi="31">
         <activity
+            android:name=".UpdateHouseActivity"
+            android:exported="false" />
+        <activity
             android:name=".HousesActivity"
             android:exported="false" />
         <activity
             android:name=".AccountInformationActivity"
             android:exported="false" />
         <activity
-            android:name=".signinAdminActivity"
+            android:name=".signupAdminActivity"
             android:exported="false" />
         <activity
-            android:name=".adminMainActivity"
+            android:name=".signupTenantActivity"
+            android:exported="false" />
+        <activity
+            android:name=".tenantMainActivity"
             android:exported="false" />
         <activity
             android:name=".loginAdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".loginTenantActivity"
             android:exported="false" />
         <activity
             android:name=".loginActivity1"

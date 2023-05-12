@@ -18,5 +18,10 @@ class loginActivity1 : AppCompatActivity() {
             var admin = Intent(this,loginAdminActivity::class.java)
             startActivity(admin)
         }
+        tenant.setOnClickListener {
+            var tenant = Intent(this,loginTenantActivity::class.java)
+            startActivity(tenant)
+        }
+
     }
 }

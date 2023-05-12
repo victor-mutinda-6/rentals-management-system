@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginimg"
+    tools:context=".loginAdminActivity">
+
+    <EditText
+        android:textSize="25dp"
+
+        android:id="@+id/adminEmail"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="19dp"
+        android:ems="10"
+        android:hint="Enter email"
+        android:inputType="textEmailAddress"
+        android:textColor="#4CDCDC"
+        android:textColorHint="@color/teal_200"
+        app:layout_constraintBottom_toTopOf="@+id/adminPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:textSize="25dp"
+
+        android:id="@+id/adminPassword"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textColor="#4CDCDC"
+        android:textColorHint="@color/teal_200"
+        app:layout_constraintBottom_toTopOf="@+id/btnCreateAccount"
+        app:layout_constraintEnd_toEndOf="@+id/adminEmail"
+        app:layout_constraintStart_toStartOf="@+id/adminEmail"
+        app:layout_constraintTop_toBottomOf="@+id/adminEmail" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="111dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/iconuser"
+        app:layout_constraintBottom_toTopOf="@+id/adminEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="295dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="79dp"
+        android:text="login"
+        android:textSize="25dp"
+        app:backgroundTint="#090EED"
+        app:iconTint="#6E1919"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNewAccount"
+        app:rippleColor="#8A2121" />
+
+    <Button
+        android:textSize="25dp"
+
+        android:id="@+id/btnCreateAccount"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="297dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="17dp"
+        android:text="Create account"
+        app:backgroundTint="#773C1C"
+        app:layout_constraintBottom_toTopOf="@+id/txtNewAccount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/adminPassword" />
+
+    <TextView
+        android:id="@+id/txtNewAccount"
+        android:gravity="center"
+        android:layout_width="317dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="45dp"
+        android:text="Do you have an account?"
+        android:textColor="#E91E63"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnlogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCreateAccount" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

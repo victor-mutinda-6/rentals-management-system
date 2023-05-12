@@ -11,62 +11,100 @@
         android:id="@+id/btnLogout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="16dp"
         android:text="logout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
 
     <ScrollView
-        android:id="@+id/scrollView2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="4dp"
-        android:background="#4AED1C1C"
-        app:layout_constraintBottom_toTopOf="@+id/btnLogout"
+        android:id="@+id/scrollView3"
+        android:layout_width="373dp"
+        android:layout_height="407dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_width="344dp"
+            android:layout_height="344dp"
+            android:layout_margin="16dp"
             android:orientation="vertical">
 
             <Button
                 android:id="@+id/btnsetting"
-                android:layout_width="128dp"
-                android:layout_height="132dp"
-                android:background="@drawable/settingsicon"
-                android:text="account setings"
-                tools:layout_editor_absoluteX="62dp"
-                tools:layout_editor_absoluteY="104dp" />
-
-            <Button
-                android:id="@+id/btnTenantlist"
-                android:layout_width="129dp"
-                android:layout_height="122dp"
-                android:background="@drawable/iconuser"
-                android:text="Tenant List"
-                tools:layout_editor_absoluteX="62dp"
-                tools:layout_editor_absoluteY="104dp" />
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:background="#C6CA1A1A"
+                android:drawableLeft=""
+                android:text="account settings"
+                android:textColor="#FFF"
+                android:textSize="25sp" />
 
             <Button
                 android:id="@+id/mbtnHouses"
-                android:layout_width="132dp"
-                android:layout_height="112dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="#C6CA1A1A"
+                android:drawableLeft="#C6CA1A1A"
                 android:text="houses"
-                tools:layout_editor_absoluteX="62dp"
-                tools:layout_editor_absoluteY="104dp" />
+                android:textColor="#FFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="#C6CA1A1A"
+                android:drawableLeft="#C6CA1A1A"
+                android:text="Austria"
+                android:textColor="#FFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/bd"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="#C6CA1A1A"
+                android:drawableLeft="#C6CA1A1A"
+                android:text="more information"
+                android:textColor="#FFF"
+                android:textSize="25sp" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="#C6CA1A1A"
+                android:drawableLeft="#C6CA1A1A"
+                android:text="about us"
+                android:textColor="#FFF"
+                android:textSize="25sp" />
+
+
+            <Button
+                android:id="@+id/br"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"
+                android:background="#C6CA1A1A"
+                android:drawableLeft="#C6CA1A1A"
+                android:text="share app"
+                android:textColor="#FFF"
+                android:textSize="25sp" />
+
 
         </LinearLayout>
     </ScrollView>
 
+
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="313dp"
-        android:layout_height="193dp"
+        android:layout_width="393dp"
+        android:layout_height="221dp"
         android:layout_marginStart="4dp"
         android:layout_marginEnd="4dp"
         app:circularflow_radiusInDP="23"

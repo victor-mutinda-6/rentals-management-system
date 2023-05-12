@@ -25,15 +25,13 @@ class HousesActivity : AppCompatActivity() {
         val linearLayoutManager = LinearLayoutManager(this)
         houseView.layoutManager = linearLayoutManager
         houseView.setHasFixedSize(true)
-        dataBase = SqliteDatabase(this)
-        houses = dataBase.listHouses()
-
-     if (houses.size > 0) {
-         houseView.visibility = View.VISIBLE
-         val mAdapter = HouseAdapter(this , houses)
-          houseView.adapter = mAdapter
-        }
-        else {
+      dataBase = SqliteDatabase(this)
+      houses = dataBase.listHouses()
+    if (houses.size > 0) {
+       houseView.visibility = View.VISIBLE
+       val mAdapter = HouseAdapter(this , houses)
+        houseView.adapter = mAdapter
+      } else {
             houseView.visibility = View.GONE
             Toast.makeText(
                 this,
