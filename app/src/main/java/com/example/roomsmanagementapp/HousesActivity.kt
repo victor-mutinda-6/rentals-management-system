@@ -32,7 +32,7 @@ class HousesActivity : AppCompatActivity() {
             override fun onDataChange(snapshot: DataSnapshot) {
                 houses.clear()
                 for (data in snapshot.children){
-                    var user = data.getValue(House::class.java)
+                    var house = data.getValue(House::class.java)
                     houses.add(house!!)
                 }
                 adapter.notifyDataSetChanged()

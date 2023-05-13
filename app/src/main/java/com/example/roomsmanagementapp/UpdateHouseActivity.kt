@@ -53,8 +53,8 @@ class UpdateHouseActivity : AppCompatActivity() {
             var number = edtNumber.text.toString().trim()
             var type = edtType.text.toString().trim()
             var rent = edtRent.text.toString().trim()
-            var type = edtTenant.text.toString().trim()
-            var more = edtMoreInfor.text.toString().trim()
+            var tenant = edtTenant.text.toString().trim()
+            var moreInfor = edtMoreInfor.text.toString().trim()
             var  id = receivedidNumber!!
             //check if the user is submitting empty fields
             if (number.isEmpty()){
@@ -71,9 +71,9 @@ class UpdateHouseActivity : AppCompatActivity() {
                 edtId.requestFocus()
             }else{
                 //proceed to save
-                var house = House(number,type,rent,more,id)
+                var house = House(number,type,rent,tenant,moreInfor,id)
                 //Create a reference to the FirebaseDatabase
-                var ref = FirebaseDatabase.getInstance().getReference().child("Users/"+id)
+                var ref = FirebaseDatabase.getInstance().getReference().child("Houses/"+id)
 
                 progressDialog.show()
                 ref.setValue(house).addOnCompleteListener{
@@ -83,7 +83,7 @@ class UpdateHouseActivity : AppCompatActivity() {
                         startActivity(Intent(this,HousesActivity::class.java))
                         finish()
                     }else{
-                        Toast.makeText(this,"User savin failed", Toast.LENGTH_LONG).show()
+                        Toast.makeText(this,"User saving failed", Toast.LENGTH_LONG).show()
                     }
                 }
 

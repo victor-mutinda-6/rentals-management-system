@@ -1,230 +1,214 @@
 [
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/xml_data_extraction_rules.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/xml/data_extraction_rules.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/layout_activity_tenant_main.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/layout/activity_tenant_main.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.example.roomsmanagementapp-pngs-29:/drawable-xhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable_bluebg.jpg.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/drawable/bluebg.jpg"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/layout/activity_main.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/layout_activity_signup_admin.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/layout/activity_signup_admin.xml"
+    },
+    {
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/layout_activity_login1.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/layout/activity_login1.xml"
+    },
+    {
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/layout_activity_houses.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/layout/activity_houses.xml"
     },
     {
         "merged": "com.example.roomsmanagementapp-merged_res-34:/layout_activity_admin_main.xml.flat",
         "source": "com.example.roomsmanagementapp-main-36:/layout/activity_admin_main.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_activity_tenant_main.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/activity_tenant_main.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "com.example.roomsmanagementapp-pngs-29:/drawable-ldpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable-xhdpi_ic_launcher_background.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-pngs-29:/drawable-xhdpi/ic_launcher_background.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/xml_backup_rules.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/xml/backup_rules.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-xhdpi/ic_launcher_foreground.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable_expenditureicon.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/drawable/expenditureicon.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "com.example.roomsmanagementapp-pngs-29:/drawable-anydpi-v21/ic_launcher_background.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable-mdpi_ic_launcher_background.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-pngs-29:/drawable-mdpi/ic_launcher_background.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/xml_backup_rules.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/xml/backup_rules.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/layout_activity_account_information.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/layout/activity_account_information.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable-xxxhdpi_ic_launcher_background.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-pngs-29:/drawable-xxxhdpi/ic_launcher_background.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable_loginimg.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/drawable/loginimg.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable_listicon.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/drawable/listicon.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable_houseicon.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/drawable/houseicon.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.example.roomsmanagementapp-pngs-29:/drawable-xxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable_houselogo.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/drawable/houselogo.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-hdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-hdpi/ic_launcher_foreground.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/layout_houses_list_layout.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/layout/houses_list_layout.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable_homehouse.jpg.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/drawable/homehouse.jpg"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_activity_tenant_login.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/activity_tenant_login.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable_houseslist.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/drawable/houseslist.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/layout_activity_update_house.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/layout/activity_update_house.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_add_houses.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/add_houses.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable_homehouse.jpg.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/drawable/homehouse.jpg"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_activity_main.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/activity_main.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable_houseslist.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/drawable/houseslist.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/layout_activity_tenant_login.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/layout/activity_tenant_login.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-mdpi/ic_launcher.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "com.example.roomsmanagementapp-pngs-29:/drawable-hdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable_expenditureicon.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/drawable/expenditureicon.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_houses_list_layout.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/houses_list_layout.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable_loginimg.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/drawable/loginimg.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_activity_signup_tenant.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/activity_signup_tenant.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable_welcome.jpg.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/drawable/welcome.jpg"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_activity_add_ahouse.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/activity_add_ahouse.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable_houseicon.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/drawable/houseicon.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-xxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_activity_account_information.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/activity_account_information.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_activity_admin_main.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/activity_admin_main.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-xxhdpi/ic_launcher_foreground.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.roomsmanagementapp-pngs-29:/drawable-anydpi-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable-xxhdpi_ic_launcher_background.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-pngs-29:/drawable-xxhdpi/ic_launcher_background.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable_iconuser.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/drawable/iconuser.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-pngs-29:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable_welcome.jpg.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/drawable/welcome.jpg"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/layout_activity_admin_login.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/layout/activity_admin_login.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_activity_view_houses.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/activity_view_houses.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/layout_activity_signup_tenant.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/layout/activity_signup_tenant.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_activity_admin_login.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/activity_admin_login.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-mdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/layout_add_houses.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/layout/add_houses.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_activity_welcome.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/activity_welcome.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable_bluebg.jpg.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/drawable/bluebg.jpg"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_activity_signup_admin.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/activity_signup_admin.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable_houselogo.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/drawable/houselogo.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable-hdpi_ic_launcher_background.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-pngs-29:/drawable-hdpi/ic_launcher_background.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.example.roomsmanagementapp-pngs-29:/drawable-xxxhdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable_settingsicon.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/drawable/settingsicon.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-pngs-29:/drawable-anydpi-v21/ic_launcher_background.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable_settingsicon.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/drawable/settingsicon.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "com.example.roomsmanagementapp-pngs-29:/drawable-mdpi/ic_launcher_background.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_activity_login1.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/activity_login1.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/layout_activity_welcome.xml.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/layout/activity_welcome.xml"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_activity_signin_admin.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/activity_signin_admin.xml"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-mdpi_ic_launcher_foreground.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-mdpi/ic_launcher_foreground.png"
-    },
-    {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_activity_houses.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/activity_houses.xml"
-    },
-    {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable_loadingbg.jpg.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/drawable/loadingbg.jpg"
-    },
-    {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable_listicon.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/drawable/listicon.png"
-    },
-    {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/layout_activity_loading.xml.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/layout/activity_loading.xml"
-    },
-    {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable-ldpi_ic_launcher_background.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-pngs-29:/drawable-ldpi/ic_launcher_background.png"
-    },
-    {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/mipmap-hdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-merged_res-34:/drawable_iconuser.png.flat",
-        "source": "/home/emobilis/.gradle/daemon/7.5/com.example.roomsmanagementapp-main-36:/drawable/iconuser.png"
+        "merged": "com.example.roomsmanagementapp-merged_res-34:/drawable_loadingbg.jpg.flat",
+        "source": "com.example.roomsmanagementapp-main-36:/drawable/loadingbg.jpg"
     }
 ]
