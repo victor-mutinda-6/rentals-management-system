@@ -1,6 +1,6 @@
 package com.example.roomsmanagementapp
 
-class Houses {
+class House {
     var id:String = ""
     var number : String = ""
     var type : String = ""
@@ -8,7 +8,7 @@ class Houses {
     var tenant : String = ""
     var moreInfor : String = ""
 
- constructor(number: String, type: String,rent: String,tenant: String, moreInfor: String, id : String,) {
+ constructor(number: String, type: String,rent: String,tenant: String, moreInfor: String, id : String) {
         this.number = number
         this.type = type
         this.rent = rent
