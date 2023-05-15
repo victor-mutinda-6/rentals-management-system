@@ -41,9 +41,10 @@
         android:id="@+id/imageView"
         android:layout_width="146dp"
         android:layout_height="164dp"
+        android:layout_marginStart="39dp"
         android:src="@drawable/iconuser"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="106dp" />
+        app:layout_constraintStart_toStartOf="@+id/adminEmail"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnlogin"

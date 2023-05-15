@@ -29,6 +29,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.RoomsManagementApp" >
         <activity
+            android:name="com.example.roomsmanagementapp.AddHouseActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.roomsmanagementapp.UpdateHouseActivity"
             android:exported="false" />
         <activity
@@ -54,6 +57,9 @@
             android:exported="false" />
         <activity
             android:name="com.example.roomsmanagementapp.loginActivity1"
+            android:exported="false" />
+        <activity
+            android:name="com.example.roomsmanagementapp.AdminMainActivity"
             android:exported="false" />
         <activity
             android:name="com.example.roomsmanagementapp.welcomeActivity"

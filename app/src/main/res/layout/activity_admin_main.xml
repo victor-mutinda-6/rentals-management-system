@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bluebg"
-    tools:context=".adminMainActivity">
+    tools:context=".AdminMainActivity">
 
     <Button
         android:id="@+id/btnLogout"
@@ -37,7 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"
                 android:background="#C6CA1A1A"
-                android:drawableLeft=""
+                android:drawableLeft="#C6CA1A1A"
                 android:text="account settings"
                 android:textColor="#FFF"
                 android:textSize="25sp" />

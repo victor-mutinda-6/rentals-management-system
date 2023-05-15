@@ -50,7 +50,7 @@ override fun getView(position: Int, convertView: View?, parent: ViewGroup?): Vie
     viewHolder.mTxtTenant.text = item.tenant
     viewHolder.mTxtMore.text = item.moreInfor
     viewHolder.btnDelete.setOnClickListener {
-        var ref = FirebaseDatabase.getInstance().getReference().child("Users/"+item.id)
+        var ref = FirebaseDatabase.getInstance().getReference().child("Houses/"+item.id)
         ref.removeValue().addOnCompleteListener{
             if (it.isSuccessful){
                 Toast.makeText(context,"House Deleted successfully",

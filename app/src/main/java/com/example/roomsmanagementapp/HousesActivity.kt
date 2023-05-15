@@ -19,14 +19,14 @@ class HousesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_houses)
-        Listhouses = findViewById(R.id.myHouseList)
+        Listhouses = findViewById(R.id.mListHouses)
         houses = ArrayList()
         adapter = HouseAdapter(this,houses)
         progressDialog = ProgressDialog(this)
         progressDialog.setTitle("Loading")
         progressDialog.setMessage("Please wait...")
         // Create a reference to the database to load data
-        var ref = FirebaseDatabase.getInstance().getReference().child("Users")
+        var ref = FirebaseDatabase.getInstance().getReference().child("Houses")
         //show the progress as you load data
         ref.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(snapshot: DataSnapshot) {

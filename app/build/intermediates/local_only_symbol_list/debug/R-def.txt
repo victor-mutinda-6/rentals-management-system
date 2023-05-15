@@ -25,7 +25,6 @@ id adminEmail
 id adminPassword
 id bd
 id br
-id btnAdd
 id btnAdmin
 id btnBack
 id btnCreateAccount
@@ -45,11 +44,13 @@ id imageView
 id imageView2
 id imageView3
 id imageView5
+id mListHouses
 id mbtnDelete
 id mbtnEdit
 id mbtnHouses
 id mbtnHouseupdate
-id medtEmail
+id mbtnSave
+id mbtnView
 id medtIdNumber
 id medtMoreInfor
 id medtNumber
@@ -61,13 +62,13 @@ id mtvNumber
 id mtvRent
 id mtvTenant
 id mtvType
-id myHouseList
 id scrollView2
 id scrollView3
 id textView4
 id txtNewAccount
 id txtlogin1
 layout activity_account_information
+layout activity_add_house
 layout activity_admin_login
 layout activity_admin_main
 layout activity_houses
@@ -79,7 +80,6 @@ layout activity_tenant_login
 layout activity_tenant_main
 layout activity_update_house
 layout activity_welcome
-layout add_houses
 layout houses_list_layout
 mipmap ic_launcher
 mipmap ic_launcher_foreground

@@ -56,7 +56,7 @@ class signupAdminActivity : AppCompatActivity() {
                             ).show()
                             val user = auth.currentUser
                             updateUI(user)
-                            var adminActivity = Intent(this,adminMainActivity::class.java)
+                            var adminActivity = Intent(this,AdminMainActivity::class.java)
                             startActivity(adminActivity)
                             finish()
                         } else {
@@ -97,7 +97,7 @@ class signupAdminActivity : AppCompatActivity() {
         // Check if user is signed in (non-null) and update UI accordingly.
         val currentUser = auth.currentUser
         if (currentUser != null) {
-            var adminActivity = Intent(this,adminMainActivity::class.java)
+            var adminActivity = Intent(this,AdminMainActivity::class.java)
             startActivity(adminActivity)
             finish()
         }

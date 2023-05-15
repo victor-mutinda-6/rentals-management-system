@@ -7,7 +7,7 @@ import android.widget.Button
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
 
-class adminMainActivity : AppCompatActivity() {
+class AdminMainActivity : AppCompatActivity() {
     lateinit var logout:Button
     lateinit var houses: Button
 
@@ -23,7 +23,7 @@ class adminMainActivity : AppCompatActivity() {
             startActivity(logout)
         }
         houses.setOnClickListener {
-            var houses = Intent(this, HousesActivity::class.java)
+            var houses = Intent(this, AddHouseActivity::class.java)
             startActivity(houses)
         }
 
