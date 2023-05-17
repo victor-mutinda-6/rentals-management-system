@@ -51,16 +51,6 @@
                 android:textSize="25sp" />
 
             <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:layout_marginTop="10dp"
-                android:background="#C6CA1A1A"
-                android:drawableLeft="#C6CA1A1A"
-                android:text="Austria"
-                android:textColor="#FFF"
-                android:textSize="25sp" />
-
-            <Button
                 android:id="@+id/bd"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"

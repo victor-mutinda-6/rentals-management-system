@@ -8,14 +8,15 @@ class Tenant {
     var address : String = ""
     var idNo : String = ""
 
-    constructor(name: String, email: String,phoneNo: String,address: String, IdNo: String, id : String) {
+    constructor(name: String, email: String,phoneNo: String,address: String, idNo: String, id : String) {
         this.name = name
         this.email = email
         this.phoneNo = phoneNo
         this.address = address
-        this.idNo = IdNo
+        this.idNo = idNo
         this.id = id
     }
+    constructor()
 
 
 }

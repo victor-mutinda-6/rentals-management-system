@@ -67,7 +67,7 @@ override fun getView(position: Int, convertView: View?, parent: ViewGroup?): Vie
         intent.putExtra("rent",item.rent)
         intent.putExtra("tenant",item.tenant)
         intent.putExtra("moreInfor",item.moreInfor)
-        intent.putExtra("id",item.id)
+        intent.putExtra("idNumber",item.id)
         context.startActivity(intent)
 
     }

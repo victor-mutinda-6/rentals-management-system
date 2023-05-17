@@ -8,32 +8,32 @@
     tools:context=".loginAdminActivity">
 
     <EditText
-        android:textColorHint="@color/teal_200"
-        android:textColor="#4CDCDC"
         android:id="@+id/adminEmail"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="308dp"
+        android:layout_height="92dp"
         android:layout_marginStart="45dp"
         android:layout_marginEnd="45dp"
         android:layout_marginBottom="18dp"
         android:ems="10"
         android:hint="Enter email"
         android:inputType="textEmailAddress"
+        android:textColor="#4CDCDC"
+        android:textColorHint="@color/teal_200"
         app:layout_constraintBottom_toTopOf="@+id/adminPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <EditText
-        android:textColor="#4CDCDC"
-        android:textColorHint="@color/teal_200"
         android:id="@+id/adminPassword"
-        android:layout_width="221dp"
-        android:layout_height="0dp"
+        android:layout_width="303dp"
+        android:layout_height="87dp"
         android:layout_marginBottom="29dp"
         android:ems="10"
         android:hint="Enter Password"
         android:inputType="textPassword"
+        android:textColor="#4CDCDC"
+        android:textColorHint="@color/teal_200"
         app:layout_constraintBottom_toTopOf="@+id/btnlogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,8 +41,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="111dp"
-        android:layout_height="71dp"
+        android:layout_width="113dp"
+        android:layout_height="88dp"
         android:layout_marginTop="36dp"
         android:layout_marginBottom="27dp"
         android:src="@drawable/iconuser"
@@ -54,10 +54,11 @@
     <Button
         android:id="@+id/btnlogin"
         style="@style/Widget.Material3.Button"
-        android:layout_width="220dp"
-        android:layout_height="0dp"
+        android:layout_width="221dp"
+        android:layout_height="66dp"
         android:layout_marginBottom="18dp"
         android:text="login"
+        android:textSize="20sp"
         app:backgroundTint="#090EED"
         app:iconTint="#6E1919"
         app:layout_constraintBottom_toTopOf="@+id/txtNewAccount"
@@ -72,6 +73,8 @@
         android:layout_width="221dp"
         android:layout_height="47dp"
         android:layout_marginBottom="86dp"
+        android:textSize="20sp"
+
         android:text="Create account"
         app:backgroundTint="#773C1C"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -81,12 +84,13 @@
         app:layout_constraintTop_toBottomOf="@+id/txtNewAccount" />
 
     <TextView
-        android:textColor="#E91E63"
         android:id="@+id/txtNewAccount"
-        android:layout_width="194dp"
-        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_width="218dp"
+        android:layout_height="41dp"
         android:layout_marginBottom="21dp"
         android:text="Do you have an account."
+        android:textColor="#E91E63"
         app:layout_constraintBottom_toTopOf="@+id/btnCreateAccount"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

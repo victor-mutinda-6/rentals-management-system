@@ -32,7 +32,7 @@ class TenantActivity  : AppCompatActivity() {
                 tenants.clear()
                 for (data in snapshot.children){
                     var tenant = data.getValue(Tenant::class.java)
-                    tenant.add(tenant!!)
+                    tenants.add(tenant!!)
                 }
                 adapter.notifyDataSetChanged()
                 progressDialog.dismiss()

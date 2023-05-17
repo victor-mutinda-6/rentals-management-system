@@ -11,7 +11,6 @@ import com.google.firebase.database.FirebaseDatabase
 
 class UpdateHouseActivity : AppCompatActivity() {
     lateinit var  edtNumber: EditText
-    lateinit var edtId:EditText
     lateinit var  edtType: EditText
     lateinit var  edtRent: EditText
     lateinit var  edtTenant: EditText
@@ -21,7 +20,6 @@ class UpdateHouseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_update_house)
-        edtId = findViewById(R.id.medtIdNumber)
         edtNumber = findViewById(R.id.medtNumber)
         edtType = findViewById(R.id.medtType)
         edtRent = findViewById(R.id.medtRent)
@@ -34,19 +32,19 @@ class UpdateHouseActivity : AppCompatActivity() {
         progressDialog.setMessage("Please wait...")
 
         //Receive data sent via the intent
-        var receivedidNumber = intent.getStringExtra("idNumber")
+        var receivedIdNumber = intent.getStringExtra("idNumber")
         var receivedNumber = intent.getStringExtra("number")
         var receivedType = intent.getStringExtra("type")
         var receivedRent = intent.getStringExtra("rent")
         var receivedTenant = intent.getStringExtra("tenant")
-        var receivedMoreInfor = intent.getStringExtra("more")
+        var receivedMoreInfor = intent.getStringExtra("moreInfor")
         //Display the received data on the EditText
         edtNumber.setText(receivedNumber)
         edtType.setText(receivedType)
         edtRent.setText(receivedRent)
         edtTenant.setText(receivedTenant)
         edtMoreInfor.setText(receivedMoreInfor)
-        edtId.setText(receivedidNumber)
+
 
         //set onclick listener
         btnUpdate.setOnClickListener {
@@ -55,7 +53,7 @@ class UpdateHouseActivity : AppCompatActivity() {
             var rent = edtRent.text.toString().trim()
             var tenant = edtTenant.text.toString().trim()
             var moreInfor = edtMoreInfor.text.toString().trim()
-            var  id = receivedidNumber!!
+            var  id = receivedIdNumber!!
             //check if the user is submitting empty fields
             if (number.isEmpty()){
                 edtNumber.setError("Please fill this Input")
@@ -66,9 +64,6 @@ class UpdateHouseActivity : AppCompatActivity() {
             }else if (rent.isEmpty()){
                 edtRent.setError("Please fill this Input")
                 edtRent.requestFocus()
-            }else if (id.isEmpty()){
-                edtId.setError("Please fill this Input")
-                edtId.requestFocus()
             }else{
                 //proceed to save
                 var house = House(number,type,rent,tenant,moreInfor,id)

@@ -29,6 +29,15 @@
         android:testOnly="true"
         android:theme="@style/Theme.RoomsManagementApp" >
         <activity
+            android:name="com.example.roomsmanagementapp.AddTenantActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.roomsmanagementapp.UpdateTenantActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.roomsmanagementapp.TenantActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.roomsmanagementapp.AddHouseActivity"
             android:exported="false" />
         <activity

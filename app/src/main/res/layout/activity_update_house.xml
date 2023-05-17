@@ -4,105 +4,107 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bgimg"
     tools:context=".UpdateHouseActivity">
 
-    <EditText
-        android:id="@+id/medtIdNumber"
-        android:layout_width="233dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="68dp"
-        android:ems="10"
-        android:hint="Enter House number"
-        android:inputType="text"
-        app:layout_constraintBottom_toTopOf="@+id/medtRent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45999998" />
+
     <EditText
         android:id="@+id/medtNumber"
-        android:layout_width="233dp"
+        android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:layout_marginTop="68dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginBottom="46dp"
+        android:background="#C6FA5BF6"
         android:ems="10"
         android:hint="Enter House number"
         android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/medtRent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45999998" />
-
-
-    <EditText
-        android:id="@+id/medtType"
-        android:layout_width="233dp"
-        android:layout_height="55dp"
-        android:ems="10"
-        android:hint="Enter House Type"
-        android:inputType="text"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/medtRent"
-        android:layout_width="233dp"
+        android:id="@+id/medtType"
+        android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:layout_marginTop="144dp"
-        android:layout_marginBottom="16dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="70dp"
+        android:background="#C6FA5BF6"
+        android:ems="10"
+        android:hint="Enter House Type"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/mbtnHouseupdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/medtMoreInfor" />
+
+    <EditText
+        android:id="@+id/medtRent"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="56dp"
+        android:background="#C6FA5BF6"
         android:ems="10"
         android:hint="Enter Rent"
         android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/medtTenant"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45999998" />
+        app:layout_constraintTop_toBottomOf="@+id/medtNumber" />
 
     <EditText
         android:id="@+id/medtTenant"
-        android:layout_width="233dp"
+        android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:layout_marginBottom="16dp"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="65dp"
+        android:background="#C6FA5BF6"
         android:ems="10"
         android:hint="Enter tenant"
         android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/medtMoreInfor"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/medtRent"
-        app:layout_constraintVertical_bias="0.45999998" />
+        app:layout_constraintTop_toBottomOf="@+id/medtRent" />
 
     <EditText
         android:id="@+id/medtMoreInfor"
-        android:layout_width="233dp"
+        android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:layout_marginBottom="16dp"
+        android:layout_margin="10dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="81dp"
+        android:background="#C6FA5BF6"
         android:ems="10"
         android:hint="Enter more information"
         android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/medtType"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/medtTenant"
-        app:layout_constraintVertical_bias="0.45999998" />
-
+        app:layout_constraintTop_toBottomOf="@+id/medtTenant" />
 
     <Button
         android:id="@+id/mbtnHouseupdate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="132dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginBottom="125dp"
+        android:backgroundTint="#FF0000"
         android:text="Update"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.453"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/medtType"
-        app:layout_constraintVertical_bias="0.151" />
+        app:layout_constraintStart_toStartOf="@+id/medtType"
+        app:layout_constraintTop_toBottomOf="@+id/medtType" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

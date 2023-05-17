@@ -60,12 +60,13 @@ class TenantAdapter (var context: Context, var data:ArrayList<Tenant>): BaseAdap
             }
         }
         viewHolder.btnUpdate.setOnClickListener {
+            Toast.makeText(context, item.name, Toast.LENGTH_SHORT).show()
             var intent = Intent(context,UpdateTenantActivity::class.java)
             intent.putExtra("name",item.name)
             intent.putExtra("email",item.email)
             intent.putExtra("phoneNo",item.phoneNo)
             intent.putExtra("address",item.address)
-            intent.putExtra("IdNo",item.idNo)
+            intent.putExtra("idNo",item.idNo)
             intent.putExtra("id",item.id)
             context.startActivity(intent)
 

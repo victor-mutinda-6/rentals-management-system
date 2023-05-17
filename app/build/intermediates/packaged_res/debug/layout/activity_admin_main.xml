@@ -14,6 +14,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
         android:text="logout"
+        app:backgroundTint="#F10606"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/scrollView2" />
@@ -36,11 +38,11 @@
                 android:id="@+id/btnsetting"
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"
-                android:background="#C6CA1A1A"
-                android:drawableLeft="#C6CA1A1A"
+                android:background="#EC2323"
                 android:text="account settings"
-                android:textColor="#FFF"
-                android:textSize="25sp" />
+                android:textColor="#E32AC4"
+                android:textSize="25sp"
+                app:backgroundTint="#E83EDD33" />
 
             <Button
                 android:id="@+id/mbtnHouses"
@@ -51,17 +53,20 @@
                 android:drawableLeft="#C6CA1A1A"
                 android:text="house"
                 android:textColor="#FFF"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                app:backgroundTint="#E8DC3333" />
 
             <Button
+                android:id="@+id/btnTenants"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginTop="10dp"
                 android:background="#C6CA1A1A"
                 android:drawableLeft="#C6CA1A1A"
-                android:text="Austria"
+                android:text="Tenants"
                 android:textColor="#FFF"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                app:backgroundTint="#DFDF2C2C" />
 
             <Button
                 android:id="@+id/bd"
@@ -72,7 +77,8 @@
                 android:drawableLeft="#C6CA1A1A"
                 android:text="more information"
                 android:textColor="#FFF"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                app:backgroundTint="#EBFFEB3B" />
 
             <Button
                 android:layout_width="fill_parent"
@@ -82,7 +88,8 @@
                 android:drawableLeft="#C6CA1A1A"
                 android:text="about us"
                 android:textColor="#FFF"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                app:backgroundTint="#DCFFEB3B" />
 
 
             <Button
@@ -94,7 +101,8 @@
                 android:drawableLeft="#C6CA1A1A"
                 android:text="share app"
                 android:textColor="#FFF"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                app:backgroundTint="#EBFFEB3B" />
 
 
         </LinearLayout>

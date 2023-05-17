@@ -58,7 +58,7 @@ class AddTenantActivity : AppCompatActivity() {
                 edtIdNo.requestFocus()
             }else{
                 //proceed to save
-                var tenant = House(name,email,phoneNo,address,idNo,id)
+                var tenant = Tenant(name, email, phoneNo, address, idNo, id)
                 //Create a reference to the FirebaseDatabase
                 var ref = FirebaseDatabase.getInstance().getReference().child("Tenants/"+id)
 
