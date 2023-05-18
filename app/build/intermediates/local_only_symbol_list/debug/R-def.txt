@@ -36,7 +36,6 @@ id btnTenant
 id btnTenants
 id btnUpdate
 id btnlogin
-id btnsetting
 id edtEmail
 id edtName
 id enterAddress
@@ -57,11 +56,10 @@ id imageView5
 id imageView6
 id mListHouses
 id mListTenants
-id mbtnAbout
 id mbtnAboutApp
 id mbtnBook
 id mbtnComplains
-id mbtnContactInfor
+id mbtnContactUs
 id mbtnContacts
 id mbtnContinue
 id mbtnDelete

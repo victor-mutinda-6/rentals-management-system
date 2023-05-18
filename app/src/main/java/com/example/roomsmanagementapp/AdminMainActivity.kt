@@ -23,7 +23,6 @@ class AdminMainActivity : AppCompatActivity() {
         houses = findViewById(R.id.mbtnHouses)
         mbtnTenant = findViewById(R.id.btnTenants)
         moreInfor = findViewById(R.id.mbtnMore)
-        playstore1 =findViewById(R.id.mbtnAbout)
         playstore = findViewById(R.id.mbtnShare)
 
 
@@ -50,8 +49,6 @@ class AdminMainActivity : AppCompatActivity() {
             var playstore = Intent(this, PlayStoreActivity::class.java)
             startActivity(playstore)
         }
-        playstore1.setOnClickListener {
-            var playstore = Intent(this, PlayStoreActivity::class.java)
-            startActivity(playstore)}
+
     }
 }

@@ -51,19 +51,19 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginTop="10dp"
-                app:backgroundTint="#D0E6530F"
                 android:drawableLeft="#C6CA1A1A"
                 android:text="Complaisns"
                 android:textColor="#FFF"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                app:backgroundTint="#D0E6530F" />
 
             <Button
-                android:id="@+id/mbtnContactInfor"
+                android:id="@+id/mbtnContactUs"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:drawableLeft="#C6CA1A1A"
-                android:text="Contact information"
+                android:text="Contact us"
                 android:textColor="#FFF"
                 android:textSize="25sp"
                 app:backgroundTint="#D0E6530F" />
@@ -73,11 +73,11 @@
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginTop="10dp"
-                app:backgroundTint="#D0E6530F"
                 android:drawableLeft="#C6CA1A1A"
                 android:text="about this app"
                 android:textColor="#FFF"
-                android:textSize="25sp" />
+                android:textSize="25sp"
+                app:backgroundTint="#D0E6530F" />
 
 
         </LinearLayout>

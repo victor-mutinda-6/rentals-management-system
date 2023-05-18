@@ -50,9 +50,9 @@ override fun getView(position: Int, convertView: View?, parent: ViewGroup?): Vie
     viewHolder.mTxtMore.text = item.moreInfor
 
     viewHolder.btnBook.setOnClickListener {
-            val uri: Uri = Uri.parse("sms to:0706901577")
+            val uri: Uri = Uri.parse("smsto:0706901577")
             val intent = Intent(Intent.ACTION_SENDTO, uri)
-            intent.putExtra("sms_body", "Hello how are you? I would like to rent one of your houses.")
+            intent.putExtra("sms_body", "hello how are you? I would like to rent one of your houses")
         context.startActivity(intent)
     }
 
