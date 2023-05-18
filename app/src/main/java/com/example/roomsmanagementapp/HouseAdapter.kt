@@ -8,7 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import com.google.firebase.database.FirebaseDatabase
-import java.util.*
 import kotlin.collections.ArrayList
 
 
@@ -28,7 +27,7 @@ private class ViewHolder(row: View?){
         this.mTxtTenant = row?.findViewById(R.id.mtvTenant) as TextView
         this.mTxtMore = row?.findViewById(R.id.mtvMore) as TextView
         this.btnDelete = row?.findViewById(R.id.mbtnDelete) as Button
-        this.btnUpdate = row?.findViewById(R.id.mbtnEdit) as Button
+        this.btnUpdate = row?.findViewById(R.id.mbtnBook) as Button
     }
 }
 override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {

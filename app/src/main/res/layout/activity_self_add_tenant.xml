@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/addtbg"
+    tools:context=".AddSelfTenantActivity">
+
+
+    <EditText
+        android:id="@+id/enterName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:background="#C4B366F6"
+        android:hint="Enter Name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/enterEmail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <EditText
+        android:id="@+id/enterEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:background="#C4B366F6"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/enterAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterName" />
+
+    <EditText
+        android:id="@+id/enterAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:background="#C4B366F6"
+        android:hint="Enter Address"
+        android:inputType="text"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/enterIdNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterEmail" />
+
+    <EditText
+        android:id="@+id/enterIdNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:background="#C4B366F6"
+        android:hint="Enter ID Number"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/enterPhoneNo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterAddress" />
+
+
+    <EditText
+        android:id="@+id/enterPhoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="33dp"
+        android:background="#C4B366F6"
+        android:hint="Enter Phone Number"
+        android:inputType="number"
+        android:maxLines="1"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/mbtnContinue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/enterIdNo" />
+
+    <Button
+        android:id="@+id/mbtnContinue"
+        android:layout_width="122dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="134dp"
+        android:backgroundTint="#DFE91E63"
+        android:text="save"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/enterPhoneNo"
+        app:layout_constraintStart_toStartOf="@+id/enterPhoneNo"
+        app:layout_constraintTop_toBottomOf="@+id/enterPhoneNo" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/enterName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconuser" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

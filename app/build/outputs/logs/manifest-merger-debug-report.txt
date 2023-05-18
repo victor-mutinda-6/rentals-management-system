@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-70:12
-INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-70:12
-INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-70:12
-INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-70:12
+ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-82:12
 MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] /home/emobilis/.gradle/caches/transforms-3/2ab8c3e7e8f53b00d706e57151a31ea0/transformed/firebase-storage-ktx-20.2.0/AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.firebase:firebase-database-ktx:20.2.1] /home/emobilis/.gradle/caches/transforms-3/d797db8aa753a1a827b950df4f9f4f2a/transformed/firebase-database-ktx-20.2.1/AndroidManifest.xml:2:1-20:12
 MERGED from [com.google.firebase:firebase-auth-ktx:22.0.0] /home/emobilis/.gradle/caches/transforms-3/c671735e7a7284fa576673ede7485b84/transformed/firebase-auth-ktx-22.0.0/AndroidManifest.xml:2:1-17:12
@@ -63,27 +63,27 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.5.1] /home/emobilis/.g
 MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/emobilis/.gradle/caches/transforms-3/720b2b2ee0d5278a01d24c6a71d12bac/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/emobilis/.gradle/caches/transforms-3/ba7944e1682d8d56572183a625436dc2/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /home/emobilis/.gradle/caches/transforms-3/51d49f90b5ba2e3c9c7b6da1bba8385d/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-70:12
-INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-70:12
-INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-70:12
+INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-82:12
+INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-82:12
 	package
 		INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-70:12
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-82:12
 		INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-70:12
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-82:12
 		INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-70:12
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:1-82:12
 		INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:5:5-68:19
+ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:5:5-80:19
 MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] /home/emobilis/.gradle/caches/transforms-3/2ab8c3e7e8f53b00d706e57151a31ea0/transformed/firebase-storage-ktx-20.2.0/AndroidManifest.xml:10:5-18:19
 MERGED from [com.google.firebase:firebase-storage-ktx:20.2.0] /home/emobilis/.gradle/caches/transforms-3/2ab8c3e7e8f53b00d706e57151a31ea0/transformed/firebase-storage-ktx-20.2.0/AndroidManifest.xml:10:5-18:19
 MERGED from [com.google.firebase:firebase-database-ktx:20.2.1] /home/emobilis/.gradle/caches/transforms-3/d797db8aa753a1a827b950df4f9f4f2a/transformed/firebase-database-ktx-20.2.1/AndroidManifest.xml:10:5-18:19
@@ -144,112 +144,136 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /home/emobilis/.gradle/cach
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:12:9-56
 	android:dataExtractionRules
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:7:9-65
-activity#com.example.roomsmanagementapp.AddTenantActivity
+activity#com.example.roomsmanagementapp.PlayStoreActivity
 ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:14:9-16:40
 	android:exported
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:16:13-37
 	android:name
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:15:13-46
-activity#com.example.roomsmanagementapp.UpdateTenantActivity
+activity#com.example.roomsmanagementapp.MoreInforWebActivity
 ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:19:13-37
 	android:name
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:18:13-49
-activity#com.example.roomsmanagementapp.TenantActivity
+activity#com.example.roomsmanagementapp.AddTenantActivity
 ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:20:9-22:40
 	android:exported
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:21:13-43
-activity#com.example.roomsmanagementapp.AddHouseActivity
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:21:13-46
+activity#com.example.roomsmanagementapp.AddSelfTenantActivity
 ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:23:9-25:40
 	android:exported
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:24:13-45
-activity#com.example.roomsmanagementapp.UpdateHouseActivity
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:24:13-50
+activity#com.example.roomsmanagementapp.UpdateTenantActivity
 ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:26:9-28:40
 	android:exported
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:27:13-48
-activity#com.example.roomsmanagementapp.HousesActivity
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:27:13-49
+activity#com.example.roomsmanagementapp.TenantActivity
 ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:29:9-31:40
 	android:exported
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:31:13-37
 	android:name
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:30:13-43
-activity#com.example.roomsmanagementapp.AccountInformationActivity
+activity#com.example.roomsmanagementapp.AddHouseActivity
 ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:32:9-34:40
 	android:exported
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:33:13-55
-activity#com.example.roomsmanagementapp.signupAdminActivity
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:33:13-45
+activity#com.example.roomsmanagementapp.UpdateHouseActivity
 ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:35:9-37:40
 	android:exported
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:37:13-37
 	android:name
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:36:13-48
-activity#com.example.roomsmanagementapp.signupTenantActivity
+activity#com.example.roomsmanagementapp.HousesActivity
 ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:38:9-40:40
 	android:exported
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:39:13-49
-activity#com.example.roomsmanagementapp.tenantMainActivity
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:39:13-43
+activity#com.example.roomsmanagementapp.HousesActivityTwo
 ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:41:9-43:40
 	android:exported
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:42:13-47
-activity#com.example.roomsmanagementapp.loginAdminActivity
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:42:13-46
+activity#com.example.roomsmanagementapp.AccountInformationActivity
 ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:44:9-46:40
 	android:exported
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:45:13-47
-activity#com.example.roomsmanagementapp.loginTenantActivity
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:45:13-55
+activity#com.example.roomsmanagementapp.signupAdminActivity
 ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:47:9-49:40
 	android:exported
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:49:13-37
 	android:name
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:48:13-48
-activity#com.example.roomsmanagementapp.loginActivity1
+activity#com.example.roomsmanagementapp.signupTenantActivity
 ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:50:9-52:40
 	android:exported
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:51:13-43
-activity#com.example.roomsmanagementapp.AdminMainActivity
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:51:13-49
+activity#com.example.roomsmanagementapp.tenantMainActivity
 ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:53:9-55:40
 	android:exported
 		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:54:13-46
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:54:13-47
+activity#com.example.roomsmanagementapp.loginAdminActivity
+ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:56:9-58:40
+	android:exported
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:58:13-37
+	android:name
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:57:13-47
+activity#com.example.roomsmanagementapp.loginTenantActivity
+ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:59:9-61:40
+	android:exported
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:60:13-48
+activity#com.example.roomsmanagementapp.loginActivity1
+ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:62:9-64:40
+	android:exported
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:63:13-43
+activity#com.example.roomsmanagementapp.AdminMainActivity
+ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:65:9-67:40
+	android:exported
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:67:13-37
+	android:name
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:66:13-46
 activity#com.example.roomsmanagementapp.welcomeActivity
-ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:56:9-64:20
+ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:68:9-76:20
 	android:exported
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:58:13-36
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:70:13-36
 	android:name
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:57:13-44
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:69:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:59:13-63:29
+ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:71:13-75:29
 action#android.intent.action.MAIN
-ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:60:17-69
+ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:72:17-69
 	android:name
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:60:25-66
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:72:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:62:17-77
+ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:74:17-77
 	android:name
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:62:27-74
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:74:27-74
 activity#com.example.roomsmanagementapp.MainActivity
-ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:65:9-67:39
+ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:77:9-79:39
 	android:exported
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:67:13-36
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:79:13-36
 	android:name
-		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:66:13-41
+		ADDED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml:78:13-41
 uses-sdk
 INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/emobilis/AndroidStudioProjects/RoomsManagementApp/app/src/main/AndroidManifest.xml

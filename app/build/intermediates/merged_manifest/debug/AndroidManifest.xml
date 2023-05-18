@@ -29,7 +29,16 @@
         android:testOnly="true"
         android:theme="@style/Theme.RoomsManagementApp" >
         <activity
+            android:name="com.example.roomsmanagementapp.PlayStoreActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.roomsmanagementapp.MoreInforWebActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.roomsmanagementapp.AddTenantActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.roomsmanagementapp.AddSelfTenantActivity"
             android:exported="false" />
         <activity
             android:name="com.example.roomsmanagementapp.UpdateTenantActivity"
@@ -45,6 +54,9 @@
             android:exported="false" />
         <activity
             android:name="com.example.roomsmanagementapp.HousesActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.roomsmanagementapp.HousesActivityTwo"
             android:exported="false" />
         <activity
             android:name="com.example.roomsmanagementapp.AccountInformationActivity"

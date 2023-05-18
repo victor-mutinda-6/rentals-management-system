@@ -69,7 +69,7 @@
                 app:backgroundTint="#DFDF2C2C" />
 
             <Button
-                android:id="@+id/bd"
+                android:id="@+id/mbtnMore"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginTop="10dp"
@@ -81,10 +81,10 @@
                 app:backgroundTint="#EBFFEB3B" />
 
             <Button
+                android:id="@+id/mbtnAbout"
                 android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:background="#C6CA1A1A"
                 android:drawableLeft="#C6CA1A1A"
                 android:text="about us"
                 android:textColor="#FFF"
@@ -93,7 +93,7 @@
 
 
             <Button
-                android:id="@+id/br"
+                android:id="@+id/mbtnShare"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_marginTop="10dp"

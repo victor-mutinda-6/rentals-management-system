@@ -56,7 +56,7 @@ class signupTenantActivity : AppCompatActivity() {
                             ).show()
                             val user = auth.currentUser
                             updateUI(user)
-                            var tenantActivity = Intent(this,tenantMainActivity::class.java)
+                            var tenantActivity = Intent(this,AddSelfTenantActivity::class.java)
                             startActivity(tenantActivity)
                             finish()
                         } else {

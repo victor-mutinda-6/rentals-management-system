@@ -27,7 +27,7 @@ class TenantAdapter (var context: Context, var data:ArrayList<Tenant>): BaseAdap
             this.mTxtAddress = row?.findViewById(R.id.mtvAddress) as TextView
             this.mTxtIdNo = row?.findViewById(R.id.mtvIdNo) as TextView
             this.btnDelete = row?.findViewById(R.id.mbtnDelete) as Button
-            this.btnUpdate = row?.findViewById(R.id.mbtnEdit) as Button
+            this.btnUpdate = row?.findViewById(R.id.mbtnBook) as Button
         }
     }
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
